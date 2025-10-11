@@ -24,7 +24,8 @@ const bstream = b.addPackage("binarystream", "path/to/zig-binarystream");
 
 Then, import and use it in your code:
 
-const bstream = @import("binarystream");
+```zig const bstream = @import("binarystream");
+```
 
 🛠️ Usage Example
 ```zig const bstream = @import("binarystream");
@@ -37,4 +38,5 @@ try writer.flush();
 📄 License
 
 Distributed under the MIT License. See LICENSE for more information.
+
 
