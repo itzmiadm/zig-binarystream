@@ -27,10 +27,4 @@ Then, import and use it in your code:
 const bstream = @import("binarystream");
 ```
 
-📄 License
-
-Distributed under the MIT License. See LICENSE for more information.
-
-
-
 
