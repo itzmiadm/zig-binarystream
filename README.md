@@ -21,22 +21,14 @@ To include zig-binarystream in your Zig project, add it as a dependency in your 
 const bstream = b.addPackage("binarystream", "path/to/zig-binarystream"); 
 ```
 
-
 Then, import and use it in your code:
 
 ```zig const bstream = @import("binarystream");
 ```
 
-🛠️ Usage Example
-```zig const bstream = @import("binarystream");
-const writer = bstream.Writer.init(...);
-try writer.writeU8(42);
-try writer.writeU16(1234);
-try writer.flush();
-```
-
 📄 License
 
 Distributed under the MIT License. See LICENSE for more information.
+
 
 
